@@ -1,32 +1,33 @@
 # 1337x.to Series Collector 
-## Description
-
+### Description
 This script is able to download torrent files from 1337x.to and Organize it into  Directories according to seasons.
 
-## System requirements
+### System requirements
+---
+`Python3`
 
-* Python3
+### Installation
+---
 
-
-## Installation
-### Linux
+1- Linux
 * `cd ~/Downloads`
 *  `git clone https://github.com/mhalawa96/1337x.to-Series-Collector.git && cd 1337x.to-Series-Collector`
 *  `pip install -r requirements.txt`
 * Now you can run script: `python3 1337x.py` or `./1337x.py`
-> [Optional]  include the script into system commands.
+ > [Optional]  include the script into system commands.
 
  * `sudo cp 1337x.py /usr/local/bin/`
  * `sudo ln -s /usr/local/bin/1337x.py /usr/bin/1337x`
- 
-#### Usage: `python3 1337x.py <url>`
 
-## Examples
+Usage: `python3 1337x.py <url>`
+
+### Examples
+---
 
 1- Download 'Game of Thrones' Torrent Files.
 
 `python3 1337x.py https://1337x.to/series/game-of-thrones/`
-> by default downloads will be in the same directory as the script.
+> By default downloads will be in the same directory as the script.
 
 2- Download into another Directory of your choice:
 
@@ -40,14 +41,18 @@ This script is able to download torrent files from 1337x.to and Organize it into
 ```
 
 
-## Features
+### Features
+---
+
 * Download the torrents with highest seeding score.
 * Organize the torrent files into directories according to season
 
-
-## License
+### License
+---
 
 [MIT]( 1337x.to-Series-Collector/LICENSE )
 
-## Author Mail
- - [mhalawa.work@gmail.com](mailto:mhalawa.work@gmail.com)
+### Author Mail
+---
+
+[mhalawa.work@gmail.com](mailto:mhalawa.work@gmail.com)
