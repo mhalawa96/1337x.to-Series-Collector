@@ -13,8 +13,10 @@ This script is able to download torrent files from 1337x.to and Organize it into
 * `cd ~/Downloads`
 *  `git clone https://github.com/mhalawa96/1337x.to-Series-Collector.git && cd 1337x.to-Series-Collector`
 *  `pip install -r requirements.txt`
-* Now you can run script: `python3 1337x.py` or `./1337x.py`
- > [Optional]  include the script into system commands.
+
+Now you can run script: `python3 1337x.py` or `./1337x.py`
+
+> [Optional]  Let the script be part of your system commands.
 
  * `sudo cp 1337x.py /usr/local/bin/`
  * `sudo ln -s /usr/local/bin/1337x.py /usr/bin/1337x`
@@ -45,7 +47,7 @@ Usage: `python3 1337x.py <url>`
 ---
 
 * Download the torrents with highest seeding score.
-* Organize the torrent files into directories according to season
+* Organize the torrent files into directories according to season.
 
 ### License
 ---
